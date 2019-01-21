@@ -1,0 +1,24 @@
+1) Create on-demand EC2 instance using pure CLI:
+
+Instance Type: t2.micro
+Image: ami-0cd3dfa4e37921605
+Security Group: sg-de2013b6
+Key: EC2-CLI 
+Instance profile: EC2_to_S3_read
+Tags: 
+	Name: EC2-CLI-{devopsX} # Replace X with relevant value
+    OS: Linux
+    Course: DevOps_base
+    (Optional) Created_by: Name Surname aka {nickname}	
+VPC: 
+  Name: Default 
+  ID: vpc-8f28dae7
+  Subnet(select only 1 from the range): {subnet-00ff864d, subnet-4893ab33, subnet-804e8ae8}
+  
+2) Create spot instance using params provided in task 1 customizing Name tag. 
+
+- Tags: 
+	Name: EC2-Spot-Fleet-CLI-{devopsX} # Replace X with relevant value
+ 
+- IamFleetRole    arn:aws:iam::339748811106:role/aws-ec2-spot-fleet-tagging-role
+- IamInstanceProfile    arn:aws:iam::339748811106:instance-profile/EC2_to_S3_read

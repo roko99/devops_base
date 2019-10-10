@@ -10,3 +10,8 @@
 - Offensive infrastructure ==  [https://www.marcolancini.it/2019/blog-offensive-infrastructure-hashistack/](https://www.marcolancini.it/2019/blog-offensive-infrastructure-hashistack/)  
 - GitLab (Swam|kubernates) ==  [https://github.com/IBM/Kubernetes-container-service-GitLab-sample/blob/master/docker-compose.yml](https://github.com/IBM/Kubernetes-container-service-GitLab-sample/blob/master/docker-compose.yml)  
 - Portainer ==  [https://www.portainer.io/#Introduction-to-Portainer](https://www.portainer.io/#Introduction-to-Portainer)
+
+Docker base:
+https://katacoda.com/courses/docker/deploying-first-container
+https://katacoda.com/courses/docker/2
+https://katacoda.com/courses/docker/persisting-data-using-volumes

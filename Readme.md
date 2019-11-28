@@ -10,6 +10,7 @@
 - Offensive infrastructure ==  [https://www.marcolancini.it/2019/blog-offensive-infrastructure-hashistack/](https://www.marcolancini.it/2019/blog-offensive-infrastructure-hashistack/)  
 - GitLab (Swam|kubernates) ==  [https://github.com/IBM/Kubernetes-container-service-GitLab-sample/blob/master/docker-compose.yml](https://github.com/IBM/Kubernetes-container-service-GitLab-sample/blob/master/docker-compose.yml)  
 - Portainer ==  [https://www.portainer.io/#Introduction-to-Portainer](https://www.portainer.io/#Introduction-to-Portainer)
+- Codepipeline ==[Slideshare] https://www.slideshare.net/AmazonWebServices/cicd-best-practices-for-building-modern-applications-mad304-chicago-aws-summit?qid=8a77974c-4335-4e66-acf4-0caa52c1a373&v=&b=&from_search=37
 
 Docker base:
 https://katacoda.com/courses/docker/deploying-first-container

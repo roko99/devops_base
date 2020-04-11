@@ -15,6 +15,7 @@ services:
       - "80:80"
     networks:
       - webnet
+      - db
     depends_on:
       - redis
   visualizer:
@@ -30,8 +31,6 @@ services:
       - webnet
   redis:
     image: redis
-    ports:
-      - "6379:6379"
     volumes:
       - "/home/:/data"
     deploy:
@@ -39,6 +38,8 @@ services:
         constraints: [node.role == manager]
     command: redis-server --appendonly yes
     networks:
-      - webnet
+      - db
 networks:
   webnet:
+  db:
+    internal: true

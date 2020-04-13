@@ -6,7 +6,6 @@ import socket
 # Connect to Redis
 file=open(os.environ['REDIS_PASS_FILE'],'r')
 password=file.readline()
-print(password)
 file.close()
 redis = Redis(host="redis", db=0, password=password, socket_connect_timeout=2, socket_timeout=2)
 
